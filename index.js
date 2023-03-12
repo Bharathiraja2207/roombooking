@@ -15,7 +15,7 @@ await client.connect();
   app.use(express.json())
 
 app.get("/", function (request, response) {
-  response.send("🙋‍♂️welcome home it's bharathi raja.A it's my home page");
+  response.send("🙋‍♂️welcome home ");
 });
 
 app.get("/createroom",async function (request, response) {
